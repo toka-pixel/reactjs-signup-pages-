@@ -28,7 +28,6 @@ const EmailVerified: React.FC<EmailVerifiedProps> = ({
       <Button
         type="primary"
         htmlType="submit"
-        style={{ width: "80%" }}
         onClick={handleContinue}
       >
         Continue

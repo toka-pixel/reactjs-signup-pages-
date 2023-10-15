@@ -73,7 +73,7 @@ const StoreInfo: React.FC<StoreInfoProps> = ({ handlePrevious }) => {
         Ex. (Baby, Boys' fashion, Girls' fashion, Men's fashion, etc..)
       </Typography>
 
-      <Button type="primary" htmlType="submit" block>
+      <Button type="primary" htmlType="submit" >
         Save
       </Button>
 

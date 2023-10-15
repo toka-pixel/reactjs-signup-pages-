@@ -13,6 +13,7 @@
     footer {
       display: flex;
       justify-content: space-between;
+      margin-top: 100px;
     }
   }
 
@@ -36,6 +37,7 @@
     .description {
       color: $white;
       font-size: 18px;
+      margin-bottom: 60px;
     }
 
     @media (max-width: 991px) {
@@ -45,8 +47,8 @@
     }
     .handDrawn {
       position: absolute;
-      bottom: 0;
-      left: -45px;
+      bottom: 50px;
+      left: -122px;
       width: fit-content;
       height: 248px;
     }
