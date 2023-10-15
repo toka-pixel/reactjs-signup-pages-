@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.layout {
+  min-height: 100vh;
+
+  .leftSide {
+    padding: 30px;
+
+    .logo {
+      margin-bottom: 25px;
+    }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .rightSide {
+    padding: 0px 96px 0px 96px;
+    width: 100vw;
+    background: $black;
+    background-size: cover;
+    background: $linear-gradient;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .title {
+      font-size: 60px;
+      color: $white;
+      margin: 1px;
+    }
+
+    .description {
+      color: $white;
+      font-size: 18px;
+    }
+
+    @media (max-width: 991px) {
+      & {
+        display: none;
+      }
+    }
+    .handDrawn {
+      position: absolute;
+      bottom: 0;
+      left: -45px;
+      width: fit-content;
+      height: 248px;
+    }
+  }
+}

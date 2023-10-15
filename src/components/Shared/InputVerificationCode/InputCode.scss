@@ -1,0 +1,30 @@
+@import "../../../styles/variables.scss";
+
+.inputCodeContainer {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  .inputs {
+    .input {
+      width: 60px;
+      height: 60px;
+      margin: 8px;
+      text-align: center;
+      font-size: 24px;
+      border: none;
+      box-shadow: 10px 5px 10px $pink;
+      outline: none;
+      border-radius: 8px;
+      border: 1px solid $gray_500;
+      padding: 10px 8px  10px 8px;
+      color:$purple;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 60px;
+      &:focus , &:visited {
+        border: 2px solid $purple;
+      }
+
+    }
+  }
+}

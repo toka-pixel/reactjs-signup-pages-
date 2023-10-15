@@ -1,16 +1,20 @@
+import Singup from "./components/index";
+import { ConfigProvider } from "antd";
+import './styles/globals.scss';
 
-import Singup from './components/index'
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={''} className="App-logo" alt="logo" />
-      
-      </header> */}
+    <ConfigProvider
+      theme={{
+        token: {
+          colorPrimary: "#7244C8",
+          borderRadius: 8,
+        },
+      }}
+    >
       <Singup />
-    </div>
+    </ConfigProvider>
   );
 }
 

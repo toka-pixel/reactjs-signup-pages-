@@ -1,0 +1,82 @@
+@import "./variables.scss";
+
+.ant-form-item-required::before {
+  position: absolute;
+  right: 0;
+  color: $black !important;
+}
+
+.ant-input,
+.ant-select-selector {
+  background-color: $gray !important;
+  height: 44px !important;
+  color: $gray_500;
+}
+
+button {
+  height: 44px !important;
+  margin: 20px 0;
+  width: 360px !important;
+}
+
+.ant-input,
+.ant-select-selector,
+button {
+  @media (max-width: 500px) {
+    width: 100% !important;
+  }
+}
+
+.ant-select-arrow {
+  margin-top: 0 !important;
+}
+
+.ant-select-selection__placeholder {
+  color: $gray_500 !important;
+}
+
+.ant-steps-item-title {
+  font-weight: 600;
+}
+
+.ant-steps-item-finish
+  .ant-steps-item-icon
+  > .ant-steps-icon
+  .ant-steps-icon-dot {
+  background-color: $green !important;
+}
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: $green !important;
+}
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-content
+  > .ant-steps-item-title {
+  color: $purple !important;
+}
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: $green !important;
+}
+a {
+  color: $purple !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.steps-content {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  & {
+    @media (max-width: 500px) {
+      padding: 10px;
+    }
+  }
+}
