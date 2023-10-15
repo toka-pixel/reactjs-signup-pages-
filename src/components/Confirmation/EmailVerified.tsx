@@ -15,7 +15,7 @@ const EmailVerified: React.FC<EmailVerifiedProps> = ({
 
   return (
     <div className="text-center">
-      <img src="/imgs/verify.png" />
+      <img src="/imgs/verify.png"  alt='verify' />
       <Title level={2} style={{ marginTop: "3px" }}>
         Email verified
       </Title>

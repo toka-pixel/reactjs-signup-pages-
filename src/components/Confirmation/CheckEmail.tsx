@@ -16,7 +16,7 @@ const CheckEmail: React.FC<CheckEmailProps> = ({
 
   return (
     <div className="text-center">
-      <img src="/imgs/purple_mail.png" />
+      <img src="/imgs/purple_mail.png" alt='mail' />
       <Title level={2} style={{ marginTop: "3px" }}>
         Check your email
       </Title>

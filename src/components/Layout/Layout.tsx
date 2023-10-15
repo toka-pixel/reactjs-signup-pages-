@@ -30,7 +30,7 @@ const Layout = () => {
       </Col>
       <Col xs={0} lg={12} className="rightSide">
         <div>
-          <img src={`/imgs/${rightSide.right_logo}`} />
+          <img src={`/imgs/${rightSide.right_logo}`} alt='logo' />
           <p className="title">{rightSide.right_title}</p>
           <p className="description">
             Create a free account and get full access to all features for

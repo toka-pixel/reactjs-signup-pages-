@@ -21,7 +21,7 @@ const StoreInfo: React.FC<StoreInfoProps> = ({ handlePrevious }) => {
       value: "arabic",
       label: (
         <>
-          <img src="/imgs/egypt.png" style={style} />
+          <img src="/imgs/egypt.png"  alt='egypt' style={style} />
           Arabic
         </>
       ),
@@ -30,7 +30,7 @@ const StoreInfo: React.FC<StoreInfoProps> = ({ handlePrevious }) => {
       value: "English",
       label: (
         <>
-          <img src="/imgs/english.png" style={style} />
+          <img src="/imgs/english.png" alt='english' style={style} />
           English
         </>
       ),

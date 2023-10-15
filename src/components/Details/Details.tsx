@@ -9,11 +9,11 @@ const Details: React.FC<DetailsProps> = ({ handleNext }) => {
   const options = [
     {
       value: "+2 (100) 123-34567",
-      label: <img src="/imgs/egypt.png" width="10px" height="10px" />,
+      label: <img src="/imgs/egypt.png" alt='egypt' width="10px" height="10px" />,
     },
     {
       value: "+45 (000) 123-345",
-      label: <img src="/imgs/english.png" width="10px" height="10px" />,
+      label: <img src="/imgs/english.png" alt='english' width="10px" height="10px" />,
     },
   ];
 
@@ -109,7 +109,7 @@ const Details: React.FC<DetailsProps> = ({ handleNext }) => {
         }}
       >
         <span> عربى </span>
-        <img src="/imgs/world.png" />
+        <img src="/imgs/world.png" alt='world' />
       </div>
     </Form>
   );

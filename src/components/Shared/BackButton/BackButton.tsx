@@ -17,7 +17,7 @@ const BackButton: React.FC<BackButtonProps> = ({ handlePrevious }) => {
       onClick={handlePrevious}
       
     >
-      <img src="/imgs/arrow-left.png" style={{marginRight:'5px'}} />
+      <img src="/imgs/arrow-left.png" alt='arrow-left' style={{marginRight:'5px'}} />
       <Typography> Back to log in</Typography>
     </Button>
   );
