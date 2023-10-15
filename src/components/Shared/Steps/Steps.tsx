@@ -60,41 +60,18 @@ const FormSteps: React.FC<FormStepsProps> = ({ rightSideData }) => {
     });
   }, [activeStep]);
 
- 
-
   return (
     <div>
-      <Steps progressDot size='small' current={activeStep}>
-
+      <Steps progressDot size="small" current={activeStep}>
         {steps.map((item) => (
           <Step
             key={item.title}
             description={item.description}
             title={item.title}
-           
           />
         ))}
       </Steps>
       <div className="steps-content">{steps[activeStep].content}</div>
-      <div >
-        {/* {activeStep < steps.length - 1 && (
-          <Button type="primary" onClick={handleNext} block>
-            Next
-          </Button>
-        )} */}
-
-        {/* {activeStep > 0 && (
-          <Button
-            type="link"
-            style={{ display: "flex", justifyContent: "center" }}
-            onClick={handlePrevious}
-            block
-          >
-            <img src="/imgs/arrow-left.png" />{" "}
-            <Typography> Back to log in</Typography>
-          </Button>
-        )} */}
-      </div>
     </div>
   );
 };
